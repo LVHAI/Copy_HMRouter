@@ -1,0 +1,20 @@
+{
+  "name": "@hadss/hmrouter",
+  "version": "1.0.0-rc.6",
+  "description": "一款功能强大的HarmonyOS路由框架，支持服务型路由，可配置自定义拦截器、生命周期、转场动画，支持har、Hsp，帮助开发者更好的进行模块间解耦",
+  "main": "Index.ets",
+  "author": "DTSE",
+  "license": "Apache-2.0",
+  "keywords": [
+    "路由",
+    "路由框架",
+    "router",
+    "navigation"
+  ],
+  "compatibleSdkVersion": "12",
+  "homepage": "https://gitee.com/hadss/hmrouter",
+  "repository": "https://gitee.com/hadss/hmrouter",
+  "dependencies": {
+    "libhmrouterlibrary.so": "file:./src/main/cpp/types/libhmrouterlibrary"
+  }
+}

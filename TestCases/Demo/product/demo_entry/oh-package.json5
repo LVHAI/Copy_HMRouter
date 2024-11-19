@@ -1,0 +1,14 @@
+{
+  "name": "demo_entry",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@hadss/hmrouter": "file:../../../../HMRouterLibrary",
+    "demo_home": "file:../../module/demo_home",
+    "demo_mine": "file:../../module/demo_mine",
+    "custom_template_cases": "file:../../module/custom_template_cases"
+  }
+}

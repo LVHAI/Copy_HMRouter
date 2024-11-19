@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "XtstestAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "XtstestAbility_label",
+      "value": "label"
+    }
+  ]
+}

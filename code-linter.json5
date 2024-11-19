@@ -1,0 +1,22 @@
+{
+  "files": ["**/*.ets"],
+  "ignore": [
+    "**/src/ohosTest/**/*",
+    "**/src/test/**/*",
+    "**/src/mock/**/*",
+    "**/node_modules/**/*",
+    "**/oh_modules/**/*",
+    "**/build/**/*",
+    "**/.preview/**/*"
+  ],
+  "ruleSet": [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@previewer/recommended",
+//    "plugin:@performance/recommended",
+//    "plugin:@security/recommended",
+//    "plugin:@hw-stylistic/all"
+  ],
+  "rules": {
+//    "@typescript-eslint/semi": "error"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "module": {
+    "name": "phone",
+    "type": "feature",
+    "description": "$string:module_desc",
+    "mainElement": "PhoneAbility",
+    "deviceTypes": [
+      "phone"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "PhoneAbility",
+        "srcEntry": "./ets/phoneability/PhoneAbility.ets",
+        "description": "$string:PhoneAbility_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:PhoneAbility_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true
+      }
+    ]
+  }
+}

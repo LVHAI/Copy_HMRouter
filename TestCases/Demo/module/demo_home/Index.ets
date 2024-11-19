@@ -1,0 +1,1 @@
+export { ZoomAnimator } from './src/main/ets/animators/ZoomAnimator'

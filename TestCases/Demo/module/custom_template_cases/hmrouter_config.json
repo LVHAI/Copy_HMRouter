@@ -1,0 +1,14 @@
+{
+  "scanDir": [
+    "src/main/ets/pages/**"
+  ],
+  "saveGeneratedFile": false,
+  "customPageTemplate": [
+    {
+      "srcPath": [
+        "**/DialogMaskCase*.ets"
+      ],
+      "templatePath": "./src/main/templates/DialogMaskTemplate.ejs"
+    }
+  ]
+}

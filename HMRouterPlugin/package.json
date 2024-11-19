@@ -1,0 +1,47 @@
+{
+  "name": "@hadss/hmrouter-plugin",
+  "version": "1.0.0-rc.7",
+  "description": "HMRouter Compiler Plugin",
+  "main": "dist/Index.js",
+  "scripts": {
+    "test:unit": "cross-env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' TEST_ENV='unit' mocha",
+    "test": "cross-env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' mocha",
+    "dev": "tsc && node dist/index.js",
+    "build": "tsc",
+    "package": "tsc && npm pack && mv hadss*.tgz ../libs",
+    "release": "tsc && npm publish --access public"
+  },
+  "keywords": [
+    "hmrouter",
+    "harmonyos",
+    "openharmony"
+  ],
+  "author": "DTSE",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "micromatch": "^4.0.8",
+    "ts-morph": "^23.0.0"
+  },
+  "devDependencies": {
+    "@ohos/hvigor": "5.7.4",
+    "@ohos/hvigor-ohos-plugin": "5.7.4",
+    "@types/chai": "^4.3.19",
+    "@types/ejs": "^3.1.5",
+    "@types/micromatch": "^4.0.9",
+    "@types/mocha": "^10.0.8",
+    "@types/node": "^20.16.6",
+    "chai": "^4.5.0",
+    "cross-env": "^7.0.3",
+    "mocha": "^10.7.3",
+    "ts-node": "^10.9.2"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "homepage": "https://gitee.com/hadss/hmrouter",
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/hadss/hmrouter"
+  }
+}

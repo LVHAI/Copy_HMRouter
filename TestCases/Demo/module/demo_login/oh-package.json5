@@ -1,0 +1,12 @@
+{
+  "name": "demo_login",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "Index.ets",
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@hadss/hmrouter": "file:../../../../HMRouterLibrary",
+    "demo_logincontent": "file:../demo_loginContent"
+  }
+}

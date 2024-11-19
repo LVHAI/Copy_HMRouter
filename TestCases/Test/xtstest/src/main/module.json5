@@ -1,0 +1,26 @@
+{
+  "module": {
+    "name": "xtstest",
+    "type": "feature",
+    "description": "$string:module_desc",
+    "mainElement": "XtstestAbility",
+    "deviceTypes": [
+      "phone"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "XtstestAbility",
+        "srcEntry": "./ets/xtstestability/XtstestAbility.ets",
+        "description": "$string:XtstestAbility_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:XtstestAbility_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true
+      }
+    ]
+  }
+}

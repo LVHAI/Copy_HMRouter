@@ -1,0 +1,4 @@
+-keep-property-name
+loadModule
+ohmurl
+hspModuleNames

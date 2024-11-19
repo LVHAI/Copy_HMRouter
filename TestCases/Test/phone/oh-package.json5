@@ -1,0 +1,14 @@
+{
+  "name": "phone",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@hadss/hmrouter": "file:../../../HMRouterLibrary",
+    "home": "file:../home",
+    "mine": "file:../mine"
+  }
+}
+

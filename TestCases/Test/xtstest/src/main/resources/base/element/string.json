@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "XtstestAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "XtstestAbility_label",
+      "value": "label"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "module": {
+    "name": "custom_template_cases",
+    "type": "har",
+    "deviceTypes": [
+      "default",
+      "tablet",
+      "2in1"
+    ]
+  }
+}

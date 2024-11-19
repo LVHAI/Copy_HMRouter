@@ -1,0 +1,133 @@
+{
+  "app": {
+    "multiProjects": true,
+    "signingConfigs": [],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HMRouterLibrary",
+      "srcPath": "./HMRouterLibrary"
+    },
+    {
+      "name": "login",
+      "srcPath": "./TestCases/Test/login"
+    },
+    {
+      "name": "mine",
+      "srcPath": "./TestCases/Test/mine"
+    },
+    {
+      "name": "home",
+      "srcPath": "./TestCases/Test/home",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "phone",
+      "srcPath": "./TestCases/Test/phone",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "loginContent",
+      "srcPath": "./TestCases/Test/loginContent"
+    },
+    {
+      "name": "demo_login",
+      "srcPath": "./TestCases/Demo/module/demo_login"
+    },
+    {
+      "name": "demo_mine",
+      "srcPath": "./TestCases/Demo/module/demo_mine"
+    },
+    {
+      "name": "demo_entry",
+      "srcPath": "./TestCases/Demo/product/demo_entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "demo_home",
+      "srcPath": "./TestCases/Demo/module/demo_home",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "demo_loginContent",
+      "srcPath": "./TestCases/Demo/module/demo_loginContent"
+    },
+    {
+      "name": "custom_template_cases",
+      "srcPath": "./TestCases/Demo/module/custom_template_cases"
+    },
+    {
+      "name": "xtstest",
+      "srcPath": "./TestCases/Test/xtstest",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
